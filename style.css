@@ -1,0 +1,490 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background-color: #000103;
+ margin-bottom: 50px;
+}
+
+
+.header {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.logo {
+	height: 20px;
+	width: auto; 
+  margin-top: 10px; 
+}
+
+.navmenu {
+  list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+
+a:hover {
+    color: #11cc9e !important;
+    letter-spacing: 0.188rem;
+    
+}
+
+.card {
+  margin-top: 50px;
+  height: 400px;
+   transition: all 0.3s ease-in-out;
+
+}
+
+.card:hover {
+transform: translateY(-20px) !important;
+background-color: #11cc9e;
+background-image: 
+linear-gradient(180deg
+,#11cc9e,#fff)
+}
+
+.card-btn {
+  border-radius: 1.25rem; 
+ color: #11cc9e;
+ border-color: #11cc9e !important;
+ background-color: transparent;
+ padding: 8px 30px;
+ font-size: 17px;
+ font-weight: 500;
+}
+
+.card-btn:hover {
+  letter-spacing: 0.188rem;
+  background-color: #11cc9e;
+  border-color: #11cc9e !important;
+  color: white;
+}
+
+.btn {
+ border-radius: 1.25rem; 
+ color: white;
+ border-color: white !important;
+ background-color: transparent;
+ padding: 8px 30px;
+ font-size: 17px;
+ font-weight: 500;
+}
+
+.btn:hover {
+  letter-spacing: 0.188rem;
+  background-color: #11cc9e;
+  border-color: #11cc9e !important;
+  color: white;
+}
+
+.hamburger {
+  display: none;
+}
+
+.swr {
+  color: #11cc9e;
+}
+
+.banner {
+  width: 75%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.banner p {
+  color: #afc0ba;
+  padding-top: 30px;
+  font-size: 18px;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.banner h5 {
+  color: white;
+  padding-bottom: 30px;
+}
+
+.geek{
+  width: auto;
+  height: 340px;
+  padding-top: 50px;
+}
+
+.curious{
+  margin-top: 3.125rem;
+  margin-bottom: 10px;
+}
+
+
+.curious a {
+  font-size: 20px;
+}
+
+.curious a:hover {
+  color: #11cc9e !important;
+}
+
+
+.social img{
+  height: 18px;
+  width: auto;
+  padding-right: 20px;
+}
+
+.social img:hover {
+  height: 30px;
+  width: auto;
+  transition: ease-in-out;
+}
+
+.navmenu .social img {
+  display: none;
+}
+
+.banner .hello {
+  color: lightgrey;
+  position: fixed;
+  top: 30%;
+  left: -4rem;
+  opacity: 0.1;
+  z-index: -1;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 29.84vmin;
+  padding-top: 200px;
+  transition: all 0.8s ease 0s;
+}
+
+.banner .helloo {
+  color: lightgrey;
+  position: fixed;
+  top: 20%;
+  left: 70%;
+  opacity: 0.1;
+  z-index: -1;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3.33vmin;
+  transition: all 0.8s ease 0s;
+}
+
+.banner .hola {
+  color: lightgrey;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  opacity: 0.1;
+  z-index: -1;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  font-size: 5.33vmin;
+  transition: all 0.8s ease 0s;
+}
+
+.banner .salut {
+  color: lightgrey;
+  position: fixed;
+  bottom: 20%;
+  right: 50px;
+  opacity: 0.1;
+  z-index: -1;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3.33vmin;
+  transition: all 0.8s ease 0s;
+}
+
+.banner .hallo {
+  color: lightgrey;
+  position: fixed;
+  bottom: 2%;
+  right: 400px;
+  opacity: 0.1;
+  z-index: -1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.33vmin;
+  transition: all 0.8s ease 0s;
+}
+
+.about .abt {
+  color: lightgrey;
+  position: fixed;
+  top: 30%;
+  left: -12rem;
+  opacity: 0.1;
+  z-index: -1;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20.84vmin;
+  padding-top: 150px;
+  transform: rotate(90deg);
+  transition: all 0.8s ease 0s;
+}
+
+.about .witg {
+  color: lightgrey;
+  position: fixed;
+  top: 25%;
+  left: 60%;
+  opacity: 0.1;
+  z-index: -1;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2.33vmin;
+  font-style: italic;
+  transition: all 0.8s ease 0s;
+}
+
+
+
+.about .wih {
+  color: lightgrey;
+  position: fixed;
+  bottom: 2%;
+  left: 400px;
+  opacity: 0.1;
+  z-index: -1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.33vmin;
+  transition: all 0.8s ease 0s;
+}
+
+.stuff .projects {
+  color: lightgrey;
+  position: fixed;
+  top: 15%;
+  left: 25rem;
+  opacity: 0.1;
+  z-index: -1;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20.84vmin;
+  transition: all 0.8s ease 0s;
+}
+
+.stuff .sid {
+  color: lightgrey;
+  position: fixed;
+  top: 40%;
+  right: 90%;
+  opacity: 0.1;
+  z-index: -1;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2.33vmin;
+  font-style: italic;
+  transition: all 0.8s ease 0s;
+}
+
+
+
+.stuff .ceo {
+  color: lightgrey;
+  position: fixed;
+  bottom: 2%;
+  right: 200px;
+  opacity: 0.1;
+  z-index: -1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.33vmin;
+  transition: all 0.8s ease 0s;
+}
+
+.contact .reach {
+  color: lightgrey;
+  position: fixed;
+  bottom: -4rem;
+  right: 30%;
+  opacity: 0.1;
+  z-index: -1;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20.84vmin;
+  transition: all 0.8s ease 0s;
+}
+
+.contact .ro {
+  color: lightgrey;
+  position: fixed;
+  bottom: 40%;
+  right: 90%;
+  opacity: 0.1;
+  z-index: -1;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2.33vmin;
+  font-style: italic;
+  transition: all 0.8s ease 0s;
+}
+
+
+
+.contact .wcc {
+  color: lightgrey;
+  position: fixed;
+  top: 30%;
+  right: 200px;
+  opacity: 0.1;
+  z-index: -1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.33vmin;
+  transition: all 0.8s ease 0s;
+}
+
+.bar1 {
+    display: block;
+    width: 15px;
+    height: 1px;
+    margin: 0;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+.bar2 {
+    display: block;
+   width: 25px;
+    height: 1px;
+    margin: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white ;
+    
+}
+
+.myself {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  opacity: 0.1;
+  z-index: -1;
+  height: 73vmin;
+  width: auto;
+  border-radius: 60px;
+  transition: all 0.8s ease 0s;
+  padding: 2px;
+
+}
+
+.noscroll {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.blurry {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.form {
+margin-right: auto;
+}
+
+label {
+  color: white;
+}
+
+.form-control {
+ background: transparent;
+    margin-bottom: 2rem;
+    color: white;
+    box-shadow: none !important;
+    padding: 24px 21px !important;
+    border-color: white;
+    width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+    
+
+.banner h1 {
+  font-size: 40px;
+}
+
+ .navmenu {
+    position: fixed;
+    height: 100%;
+    right: -100%;
+    top: 0;
+    flex-direction: column;
+    background-color: #000103;
+    z-index: 1;
+    width: 80%;
+    text-align: center;
+    transition: 0.5s;
+  }
+
+  .nav-item {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    margin-top: 1rem; 
+  }
+
+  .nav-link {
+    font-size: 20px;
+  }
+
+  .navmenu.active {
+    right: 0; 
+  }
+
+  .logo {
+    z-index: 3;
+  }
+  
+.banner {
+  text-align: center;
+}
+
+.social {
+ justify-content: center;
+}
+
+.navmenu .social img {
+  display: flex;
+  margin-bottom: 1rem;
+  margin-top: 10rem;
+  
+}
+
+.banner .hello {
+  line-height: 120px;
+}
+
+.hamburger {
+  margin-top: 10px;
+        z-index: 3;
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar1 {
+      width: 25px;
+        transform: translateY(0.2rem) rotate(45deg);
+    }
+
+    .hamburger.active .bar2 {
+        transform: translateY(-0.5rem) rotate(-45deg);
+    }
+
+
+}
+
+@media only screen and (max-width: 1028px) {
+
+  .geek {
+  display: none;
+}
+}
+
+
