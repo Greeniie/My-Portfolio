@@ -118,6 +118,7 @@ linear-gradient(180deg
 .banner h5 {
   color: white;
   padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 .geek{
@@ -386,7 +387,7 @@ linear-gradient(180deg
   -webkit-filter: blur(8px);
 }
 
-.form {
+.my-form {
 margin-right: auto;
 }
 
@@ -402,6 +403,14 @@ label {
     padding: 24px 21px !important;
     border-color: white;
     width: 60%;
+}
+
+.contact-icons {
+  padding-top: 50px;
+}
+
+.warning {
+  border-color: rgba(255, 111, 89, 0.8) !important;
 }
 
 @media only screen and (max-width: 768px) {
