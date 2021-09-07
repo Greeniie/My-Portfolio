@@ -2,8 +2,11 @@ const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".navmenu");
 const banner = document.querySelector(".banner");
 const body = document.querySelector("#body");
-const submitButton = document.querySelector(".submit")
-let formGroup = document.querySelector(".form-group")
+const form = document.querySelector(".my-form")
+
+
+
+
 
 const mobileMenu = () => {
 if (hamburger.classList.contains("active") )
@@ -22,18 +25,5 @@ if (hamburger.classList.contains("active") )
 }
 
 hamburger.addEventListener("click", mobileMenu);
-
-submitButton.addEventListener ("click" , submitForm);
-
-function submitForm(e) {
-
-    e.preventDefault();
-    console.log("click");
-
-}
-
-// window.submitButton = window.submitButton || function () { (submitButton.q = submitButton.q || []).push(arguments) };
-
-
 
 
