@@ -5,10 +5,9 @@
 }
 
 body {
- background-color: #000103;
- margin-bottom: 50px;
+  background-color: #000103;
+  margin-bottom: 50px;
 }
-
 
 .header {
   width: 90%;
@@ -17,9 +16,9 @@ body {
 }
 
 .logo {
-	height: 20px;
-	width: auto; 
-  margin-top: 10px; 
+  height: 20px;
+  width: auto;
+  margin-top: 10px;
 }
 
 .navmenu {
@@ -27,42 +26,37 @@ body {
 }
 
 a {
-    text-decoration: none !important;
-    color: white;
-    font-size: 15px;
-    font-weight: 500;
-    
+  text-decoration: none !important;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 a:hover {
-    color: #11cc9e !important;
-    letter-spacing: 0.188rem;
-    
+  color: #11cc9e !important;
+  letter-spacing: 0.188rem;
 }
 
 .card {
   margin-top: 50px;
   height: 400px;
-   transition: all 0.3s ease-in-out;
-
+  transition: all 0.3s ease-in-out;
 }
 
 .card:hover {
-transform: translateY(-20px) !important;
-background-color: #11cc9e;
-background-image: 
-linear-gradient(180deg
-,#11cc9e,#fff)
+  transform: translateY(-20px) !important;
+  background-color: #11cc9e;
+  background-image: linear-gradient(180deg, #11cc9e, #fff);
 }
 
 .card-btn {
-  border-radius: 1.25rem; 
- color: #11cc9e;
- border-color: #11cc9e !important;
- background-color: transparent;
- padding: 8px 30px;
- font-size: 17px;
- font-weight: 500;
+  border-radius: 1.25rem;
+  color: #11cc9e;
+  border-color: #11cc9e !important;
+  background-color: transparent;
+  padding: 8px 30px;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .card-btn:hover {
@@ -73,13 +67,13 @@ linear-gradient(180deg
 }
 
 .btn {
- border-radius: 1.25rem; 
- color: white;
- border-color: white !important;
- background-color: transparent;
- padding: 8px 30px;
- font-size: 15px;
- font-weight: 500;
+  border-radius: 1.25rem;
+  color: white;
+  border-color: white !important;
+  background-color: transparent;
+  padding: 8px 30px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .btn:hover {
@@ -121,17 +115,16 @@ linear-gradient(180deg
   padding-top: 10px;
 }
 
-.geek{
+.geek {
   width: auto;
   height: 340px;
   padding-top: 50px;
 }
 
-.curious{
+.curious {
   margin-top: 3.125rem;
   margin-bottom: 10px;
 }
-
 
 .curious a {
   font-size: 20px;
@@ -141,8 +134,7 @@ linear-gradient(180deg
   color: #11cc9e !important;
 }
 
-
-.social img{
+.social img {
   height: 18px;
   width: auto;
   padding-right: 20px;
@@ -165,7 +157,7 @@ linear-gradient(180deg
   left: -4rem;
   opacity: 0.1;
   z-index: -1;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 29.84vmin;
   padding-top: 200px;
   transition: all 0.8s ease 0s;
@@ -178,7 +170,7 @@ linear-gradient(180deg
   left: 70%;
   opacity: 0.1;
   z-index: -1;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 3.33vmin;
   transition: all 0.8s ease 0s;
 }
@@ -190,7 +182,7 @@ linear-gradient(180deg
   left: 50%;
   opacity: 0.1;
   z-index: -1;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
   font-size: 5.33vmin;
   transition: all 0.8s ease 0s;
@@ -203,7 +195,7 @@ linear-gradient(180deg
   right: 50px;
   opacity: 0.1;
   z-index: -1;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 3.33vmin;
   transition: all 0.8s ease 0s;
 }
@@ -227,7 +219,7 @@ linear-gradient(180deg
   left: -12rem;
   opacity: 0.1;
   z-index: -1;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 20.84vmin;
   padding-top: 150px;
   transform: rotate(90deg);
@@ -241,13 +233,11 @@ linear-gradient(180deg
   left: 60%;
   opacity: 0.1;
   z-index: -1;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 2.33vmin;
   font-style: italic;
   transition: all 0.8s ease 0s;
 }
-
-
 
 .about .wih {
   color: lightgrey;
@@ -268,7 +258,7 @@ linear-gradient(180deg
   left: 25rem;
   opacity: 0.1;
   z-index: -1;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 20.84vmin;
   transition: all 0.8s ease 0s;
 }
@@ -280,13 +270,11 @@ linear-gradient(180deg
   right: 90%;
   opacity: 0.1;
   z-index: -1;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 2.33vmin;
   font-style: italic;
   transition: all 0.8s ease 0s;
 }
-
-
 
 .stuff .ceo {
   color: lightgrey;
@@ -307,7 +295,7 @@ linear-gradient(180deg
   right: 10%;
   opacity: 0.1;
   z-index: -1;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 20.84vmin;
   transition: all 0.8s ease 0s;
 }
@@ -319,13 +307,11 @@ linear-gradient(180deg
   right: 90%;
   opacity: 0.1;
   z-index: -1;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 2.33vmin;
   font-style: italic;
   transition: all 0.8s ease 0s;
 }
-
-
 
 .contact .wcc {
   color: lightgrey;
@@ -340,24 +326,23 @@ linear-gradient(180deg
 }
 
 .bar1 {
-    display: block;
-    width: 15px;
-    height: 1px;
-    margin: 0;
-    margin-bottom: 10px;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: white;
+  display: block;
+  width: 15px;
+  height: 1px;
+  margin: 0;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
 }
 .bar2 {
-    display: block;
-   width: 25px;
-    height: 1px;
-    margin: 0;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: white ;
-    
+  display: block;
+  width: 25px;
+  height: 1px;
+  margin: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
 }
 
 .myself {
@@ -371,15 +356,14 @@ linear-gradient(180deg
   border-radius: 60px;
   transition: all 0.8s ease 0s;
   padding: 2px;
-
 }
 
 .noscroll {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 
 .blurry {
@@ -388,7 +372,7 @@ linear-gradient(180deg
 }
 
 .my-form {
-margin-right: auto;
+  margin-right: auto;
 }
 
 label {
@@ -396,44 +380,34 @@ label {
 }
 
 .form-control {
- background: transparent;
-    margin-bottom: 2rem;
-    padding: 24px 21px !important;
-    border-color: white;
-    width: 60%;
-
+  background: transparent;
+  margin-bottom: 2rem;
+  padding: 24px 21px !important;
+  border-color: white;
+  width: 60%;
+  border-radius: 10px;
 }
 
-.form-control:focus, .form-control:active {
-    background: transparent;
-    color: white;
-    border-color: #11cc9e;
-}
-
-.contact-icons {
-  padding-top: 50px;
-}
-
-.warning {
-  border-color: rgba(255, 111, 89, 0.8) !important;
+.form-control:focus,
+.form-control:active {
+  background: transparent;
+  color: white;
+  border-color: #11cc9e;
 }
 
 .contact-icons {
   padding-top: 50px;
 }
 
-.warning {
-  border-color: rgba(255, 111, 89, 0.8) !important;
-}
+
+
 
 @media only screen and (max-width: 768px) {
-    
+  .banner h1 {
+    font-size: 40px;
+  }
 
-.banner h1 {
-  font-size: 40px;
-}
-
- .navmenu {
+  .navmenu {
     position: fixed;
     height: 100%;
     right: -100%;
@@ -449,7 +423,7 @@ label {
   .nav-item {
     font-size: 20px;
     margin-bottom: 1rem;
-    margin-top: 1rem; 
+    margin-top: 1rem;
   }
 
   .nav-link {
@@ -457,56 +431,54 @@ label {
   }
 
   .navmenu.active {
-    right: 0; 
+    right: 0;
   }
 
   .logo {
     z-index: 3;
   }
-  
-.banner {
-  text-align: center;
-}
 
-.social {
- justify-content: center;
-}
+  .banner {
+    text-align: center;
+  }
 
-.navmenu .social img {
-  display: flex;
-  margin-bottom: 1rem;
-  margin-top: 10rem;
-  
-}
+  .social {
+    justify-content: center;
+  }
 
-.banner .hello {
-  line-height: 120px;
-}
+  .navmenu .social img {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 10rem;
+  }
 
-.hamburger {
-  margin-top: 10px;
-        z-index: 3;
-        display: block;
-        cursor: pointer;
-    }
+  .banner .hello {
+    line-height: 120px;
+  }
 
-    .hamburger.active .bar1 {
-      width: 25px;
-        transform: translateY(0.2rem) rotate(45deg);
-    }
+  .hamburger {
+    margin-top: 10px;
+    z-index: 3;
+    display: block;
+    cursor: pointer;
+  }
 
-    .hamburger.active .bar2 {
-        transform: translateY(-0.5rem) rotate(-45deg);
-    }
+  .hamburger.active .bar1 {
+    width: 25px;
+    transform: translateY(0.2rem) rotate(45deg);
+  }
 
+  .hamburger.active .bar2 {
+    transform: translateY(-0.5rem) rotate(-45deg);
+  }
 
+  .form-control {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1028px) {
-
   .geek {
-  display: none;
+    display: none;
+  }
 }
-}
-
-
