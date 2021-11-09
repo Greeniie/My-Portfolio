@@ -2,7 +2,8 @@ const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".navmenu");
 const banner = document.querySelector(".banner");
 const body = document.querySelector("#body");
-const form = document.querySelector(".my-form")
+const nightModeToggler = document.querySelector(".modeToggle")
+
 
 
 
@@ -24,6 +25,20 @@ if (hamburger.classList.contains("active") )
 
 }
 
-hamburger.addEventListener("click", mobileMenu);
+// hamburger.addEventListener("click", mobileMenu);
+
+
+
+// const lightMode = (e) => {
+//     e.preventDefault();
+    
+
+
+//  body.classList.toggle('light-mode')
+
+
+// }
+
+// nightModeToggler.addEventListener("click", lightMode);
 
 

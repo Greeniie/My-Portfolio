@@ -9,6 +9,11 @@ body {
   margin-bottom: 50px;
 }
 
+/* .light-mode {
+  background-color: ivory;
+  
+} */
+
 .header {
   width: 90%;
   margin: auto;
@@ -482,3 +487,7 @@ label {
     display: none;
   }
 }
+
+
+
+
