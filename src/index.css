@@ -15,10 +15,12 @@
 }
 
 /* Surfaces that must stay "light mode" in both themes (accent fills, always-dark sections) */
-.light-ctx {
-  --paper: #f1eee4;
-  --ink: #0b0b0b;
-  color: var(--ink);
+@layer base {
+  .light-ctx {
+    --paper: #f1eee4;
+    --ink: #0b0b0b;
+    color: var(--ink);
+  }
 }
 
 @theme inline {
