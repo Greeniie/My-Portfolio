@@ -23,9 +23,9 @@ export const stats: { to?: number; suffix?: string; text?: string; label: string
 export const socials = [
   { label: 'GitHub', href: 'https://github.com/greeniie' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/tejiri-anthony' },
-  { label: 'Twitter / X', href: 'https://twitter.com/SirTeejaii' },
-  { label: 'Instagram', href: 'https://www.instagram.com/official_sirteejay/' },
-  { label: 'Upwork', href: 'https://www.upwork.com' }, // TODO: swap for your profile URL
+  { label: 'Twitter / X', href: 'https://twitter.com/TejiriAnthony' },
+  { label: 'Instagram', href: 'https://www.instagram.com/tejiriii_' },
+  { label: 'Upwork', href: 'https://www.upwork.com/freelancers/~01acf0d13d9c71d528' }, 
   { label: 'Fiverr', href: 'https://www.fiverr.com/greeniieteejay' },
 ]
 
